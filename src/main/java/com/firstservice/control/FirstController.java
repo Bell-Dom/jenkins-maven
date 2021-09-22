@@ -10,12 +10,12 @@ public class FirstController {
 	String n[]= {"James","Sharan","Hari"};
   @GetMapping("/greet")
   public String greet() {
-	  return "Hi!!! Spring boot is running , Doing well";
+	  return "Hi!!! Spring boot is running , yes all moving well";
   }
   
   @GetMapping("/greet2")
   public String greet2() {
-	  return "Hi!!! Spring boot2 is running ..New Change";
+	  return "Hi!!! Spring boot2 is running ..New Change~~~~~~~~~~~~~~~~~~~";
   }
   @GetMapping("/people")
   public String[] people() {
